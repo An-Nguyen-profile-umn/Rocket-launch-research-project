@@ -9,7 +9,4 @@ Launch logic of a rocket
 
 Note: In the software, "Control Button State: Launch" does not appear. Instead, the "Control Button State: Inactive" appears because the rocket state is reset immediately after launching successfully. Also, "Control Button State: Active" does not appear. Instead, the user will be asked to command "Reset" or "Armed Launch". If the user chooses "Armed Launch", "Control Button State: Launch Available" will appear. If the user chooses "Reset" or give no commands in 10 seconds, then the rocket is reset and "Control Button State: Inactive" will appear.
 
-# Operating system problem:
-This program is developed and ran well on Unix and Mac OS using IntelliJ. I use Java 9 to developed the program. For the purpose of demonstrating how the program works, I exported the program to an RocketLaunch.exe file. When running in Win 10 OS, the program has a "not a big duel" bug that does not happen when running in Unix or Mac OS. Generally, you will realize it when you run the program and the bug does not effect the correctness of the program. 
-
 -The End-
